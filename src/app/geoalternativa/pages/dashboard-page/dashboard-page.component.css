@@ -1,0 +1,17 @@
+.container {
+  width: 90%;
+  min-height: 100%;
+  margin: 0 auto;
+
+
+}
+
+.menu {
+  width: 50%;
+  margin: 200px auto;
+}
+
+.menu li {
+  height: 30px;
+  cursor: pointer;
+}
