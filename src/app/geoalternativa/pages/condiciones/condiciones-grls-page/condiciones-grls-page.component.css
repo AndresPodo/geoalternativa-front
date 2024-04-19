@@ -1,0 +1,46 @@
+.conditions-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.nav-conditions {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  /* line-height: 70px; */
+}
+
+.domestico {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.industrial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.underline {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  border-radius: 3px;
+}
+
+.no-underline {
+  display: none;
+}
+
+.text-gray {
+  color: #868686;
+}
+
+.text-black {
+  color: #000;
+}
+

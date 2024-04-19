@@ -1,0 +1,31 @@
+.politics-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  text-align: center;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  width: 33.33%;
+}

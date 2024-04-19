@@ -1,0 +1,17 @@
+.legal-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 5px;
+  line-height: 22px;
+}
+
+.sub-div {
+  margin-left: 30px;
+}

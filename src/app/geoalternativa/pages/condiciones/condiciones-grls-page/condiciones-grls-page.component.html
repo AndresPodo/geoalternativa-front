@@ -1,0 +1,37 @@
+<div class="conditions-container">
+  <nav class="nav-conditions">
+    <div
+      class="domestico"
+      routerLink="domestico"
+      (click)="OnChangeCategory('domestico')"
+    >
+      <span class="word">
+        Doméstico
+      </span>
+      <div [ngClass]="{'underline': domesticoSlctd}">
+
+      </div>
+    </div>
+    <div
+      class="industrial"
+      routerLink="industrial"
+      (click)="OnChangeCategory('industrial')"
+    >
+      <span>
+        Industrial
+      </span>
+      <div [ngClass]="{'underline': !domesticoSlctd}">
+
+      </div>
+    </div>
+  </nav>
+
+
+  <h3>
+    Condiciones Generales
+  </h3>
+
+  <router-outlet></router-outlet>
+</div>
+
+
